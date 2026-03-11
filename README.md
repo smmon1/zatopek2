@@ -169,4 +169,4 @@ papapa
 # Tohle je experiment
 Uvidime co z toho vyleze
 papapa
-# :() nenenene 
+# co tu koukas

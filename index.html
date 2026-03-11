@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Counter</title>
+    <meta name="description" content="A global click counter that increments with every button press." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn-counter" id="btn-counter">
+            <span class="counter-label">Clicks</span>
+            <span class="counter-badge" id="counter-value">0</span>
+        </button>
+
+        <!-- Milestone Roadmap -->
+        <div class="roadmap" id="roadmap">
+            <!-- Dynamically filled by JS -->
+        </div>
+    </div>
+
+    <!-- Milestone Toast Template -->
+    <div id="toast" class="milestone-toast">
+        <div class="goal-label">Goal Reached!</div>
+        <div id="toast-count">0</div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
